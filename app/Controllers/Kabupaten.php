@@ -12,7 +12,6 @@ class Kabupaten extends BaseController
         $this->kabupaten = new M_kabupaten();
     }
 
-
 	public function index()
 	{
         $result = $this->kabupaten->findAll();

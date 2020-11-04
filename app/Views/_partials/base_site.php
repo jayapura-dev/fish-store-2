@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title><?= $title; ?></title>
+    <link rel="icon" type="image/png" href="/assets/images/icon/icon-app.png" />
     <meta name="description" content="A high-quality &amp; free Bootstrap admin dashboard template pack that comes with lots of templates and components.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
@@ -27,7 +28,7 @@
             <nav class="navbar align-items-stretch navbar-light bg-white flex-md-nowrap border-bottom p-0">
               <a class="navbar-brand w-100 mr-0" href="#" style="line-height: 25px;">
                 <div class="d-table m-auto">
-                  <img id="main-logo" class="d-inline-block align-top mr-1" style="max-width: 25px;" src="/static/images/shards-dashboards-logo.svg" alt="Shards Dashboard">
+                  <img id="main-logo" class="d-inline-block align-top mr-1" style="max-width: 55px;" src="<?php echo base_url('assets/images/icon/icon-app.png')?>" alt="Shards Dashboard">
                   <span class="d-none d-md-inline ml-1">FISH - STORE</span>
                 </div>
               </a>

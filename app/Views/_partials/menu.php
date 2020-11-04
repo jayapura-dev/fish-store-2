@@ -19,15 +19,15 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{% url 'pengaduan' %}">
+            <a class="nav-link" href="<?php echo base_url('kampung')?>">
                 <i class="material-icons">note_add</i>
                 <span>Kampung</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link " href="#">
+            <a class="nav-link " href="<?php echo base_url('nelayan')?>">
                 <i class="material-icons">people</i>
-                <span>Menajemen Akun</span>
+                <span>Nelayan</span>
             </a>
         </li>
         <li class="nav-item">
@@ -43,7 +43,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link " href="tables.html">
+            <a class="nav-link " href="#">
                 <i class="material-icons">table_chart</i>
                 <span>Menajemen Backup</span>
             </a>

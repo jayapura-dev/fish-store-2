@@ -4,6 +4,9 @@ use CodeIgniter\Model;
 
 class M_distrik extends Model {
 
+    protected $table      = 'tb_distrik';
+    protected $primaryKey = 'id_dis';
+
     function __construct(){
         $this->db = \Config\Database::connect();
     }
@@ -15,4 +18,12 @@ class M_distrik extends Model {
 
         return $query->getResult();
     }
+
+    function create_distrik($data){
+        $save = $this->db->query("INSERT INTO tb_distrik ('id_kab', 'kode_dis', 'nama_dis')
+        VALUES $data ");
+
+        return $save;
+    }
+    
 }

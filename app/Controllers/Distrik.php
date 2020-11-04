@@ -21,7 +21,6 @@ class Distrik extends BaseController
         ];
 
 		echo view('distrik/r-distrik', $data);
-	}
-
+    }
 	//--------------------------------------------------------------------
 }

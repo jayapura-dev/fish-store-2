@@ -38,7 +38,13 @@ $routes->get('/kabupaten', 'Kabupaten');
 
 // Distrik Routes
 $routes->get('/distrik', 'Distrik');
+$routes->add('/create_distrik', 'Distrik::save');
 
+// Kampung Routes
+$routes->get('/kampung', 'Kampung');
+
+// Nelayan Routes
+$routes->get('/nelayan', 'Nelayan');
 /**
  * --------------------------------------------------------------------
  * Additional Routing
