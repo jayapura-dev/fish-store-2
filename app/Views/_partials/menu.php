@@ -1,33 +1,45 @@
 <div class="nav-wrapper">
     <ul class="nav flex-column">
         <li class="nav-item">
-            <a class="nav-link" href="{% url 'dashboard' %}">
+            <a class="nav-link" href="">
                 <i class="material-icons">edit</i>
-                <span>Dashboard</span>
+                <span>Overview</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link " href="{% url 'datamaster' %}">
+            <a class="nav-link " href="<?php echo base_url('kabupaten')?>">
                 <i class="material-icons">vertical_split</i>
-                <span>Data Master</span>
+                <span>Kabupaten</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link " href="{% url 'petunjuk' %}">
+            <a class="nav-link " href="<?php echo base_url('distrik')?>">
                 <i class="material-icons">vertical_split</i>
-                <span>Petunjuk</span>
+                <span>Distrik</span>
             </a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{% url 'pengaduan' %}">
                 <i class="material-icons">note_add</i>
-                <span>Pengaduan</span>
+                <span>Kampung</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link " href="{% url 'menajemen_user' %}">
+            <a class="nav-link " href="#">
                 <i class="material-icons">people</i>
                 <span>Menajemen Akun</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#">
+                <i class="material-icons">people</i>
+                <span>Stock Produk</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#">
+                <i class="material-icons">people</i>
+                <span>Sale</span>
             </a>
         </li>
         <li class="nav-item">

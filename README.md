@@ -20,4 +20,32 @@
   - Web Sales (Use ReactJS)
   - Mobile Sales (Use React Native)
 
+* Template :
+  - Shards Admin
+  - Semantic-UI
+
 ---
+
+## Features :
+  - [ ] Authentication
+  - [ ] Dashboard Overview
+  - [ ] Life Stock use SMS Gateway
+  - [ ] Sales
+  - [ ] Fisher Database
+
+  - [ ] API Skaleton
+
+---
+
+## On Progres :
+
+* *Tuesday, 10 - 2020*
+  - Settup Routes [Solved]
+  - Settup Template [Solved]
+  - Create Model Entity Relation [Solved]
+
+* *Wednesday, 11 - 2020*
+  - Create Model use db Config [Solved]
+  - Create Model Kabupaten and Distrik [Solved]
+  - Assign DB kabupaten and distrik to Model Entity [Solved]
+  - Assign DB Kabupaten and distrik use Config Connect [Solved]
