@@ -1,4 +1,4 @@
-<p align="center"><img src="https://live.staticflickr.com/65535/49846512092_cd3986a7f6_b.jpg" width="600px"></p>
+<p align="center"><img src="https://github.com/jayapura-dev/fish-store-2/blob/master/public/assets/images/fish_store.png" width="600px"></p>
 
 
 ## Description :
